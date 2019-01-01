@@ -6,6 +6,7 @@ Currently includes:
 
 - Conway's Doomsday Algorithm
 - Zeller's Congruence
+- Sakamoto's Method
 
 ## Usage
 
