@@ -5,7 +5,9 @@ NB. Usage: ./doomsday.ijs YYYY MM DD
 NB. Reference: https://en.wikipedia.org/wiki/Doomsday_rule
 
 DAYS =: 'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday',:'Saturday'
-DOOMSDAYS =: _1 3 28 0 4 9 6 11 8 5 10 7 12
+
+NB. months:  NA 01 02 03 04 05 06 07 08 09 10 11 12
+DOOMSDAYS =: _1  3 28  0  4  9  6 11  8  5 10  7 12
 
 truncdiv =: [: (* * <.@:|) %
 
